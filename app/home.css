@@ -1,3 +1,4 @@
+
 .first {
     background-image: url(photo/pexels-freestockpro-12955837.jpg);
     background-repeat: no-repeat;
@@ -53,8 +54,8 @@
 }
 
 .property-item img {
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -198,4 +199,44 @@ small {
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: both;
+}
+
+/* تحسينات للشاشات الأصغر */
+@media (max-width: 768px) {
+    .first {
+        height: 100vh;
+    }
+
+    .first h1 {
+        font-size: x-large;
+    }
+
+    .new {
+        margin: 20px;
+        padding: 5px;
+    }
+
+    .property-item img {
+        height: 200px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .search-form-container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .search-form-container .form-control,
+    .search-form-container .form-select,
+    .search-form-container .btn {
+        padding: 10px;
+    }
+
+    .tab-content .col-lg-4, .tab-content .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
