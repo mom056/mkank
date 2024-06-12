@@ -58,7 +58,7 @@ export default function Page() {
                 <Fade cascade triggerOnce>
                     <h1>Search for your property</h1>
                     <div className="container-fluid">
-                        <div className="search-form-container" style={{ backgroundColor: "#ffffff21", padding: "35px", width: "80%", borderRadius: "10px", margin: "auto" }}>
+                        <div className="search-form-container">
                             <div className="row g-2">
                                 <div className="col-md-10">
                                     <div className="row g-2">
@@ -153,4 +153,3 @@ export default function Page() {
         </>
     );
 }
-
