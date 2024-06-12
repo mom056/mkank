@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
           <Container>
             <Navbar.Brand href="/">
               <Image
-                src="/photo/logo header.png"
+                src="./photo/logo.png"
                 width={100}
                 height={90}
                 alt="Logo"
