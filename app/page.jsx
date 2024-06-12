@@ -110,7 +110,7 @@ export default function Page() {
                                                 {post.contractType}
                                             </div>
                                             <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                                                                                               {post.propertyType}
+                                                {post.propertyType}
                                             </div>
                                         </div>
                                         <div className="p-4 pb-0">
