@@ -18,8 +18,8 @@
     color: #fff;
 }
 
-.bg-primary, .bg-secondary {
-    background-color: #ff6d04;
+.bg-{
+    background-color: #ff6d04 !important;
 }
 
 .search {
