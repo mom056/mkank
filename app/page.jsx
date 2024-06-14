@@ -106,7 +106,7 @@ export default function Page() {
                                             <Link href={`/Property-details?id=${post._id}`}>
                                                 <img className='image' src={`https://backend-mrsk.onrender.com/${post.mainImage}`} width={600} height={300} alt={post.description} />
                                             </Link>
-                                            <div className={`bg-${post.contractType === '' ? 'primary' : 'secondary'} rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3`}>
+                                            <div className={`bg-${post.contractType === 'Sell' ? 'primary' : 'secondary'} rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3`}>
                                                 {post.contractType}
                                             </div>
                                             <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
