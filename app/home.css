@@ -18,6 +18,10 @@
     color: #fff;
 }
 
+.bg-primary, .bg-secondary {
+    background-color: #ff6d04;
+}
+
 .search {
     width: 500px;
     height: 200px;
