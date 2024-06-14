@@ -54,7 +54,6 @@
 }
 
 .property-item img {
-    width: 100%;
     object-fit: cover;
 }
 
@@ -217,6 +216,7 @@ small {
 
     .property-item img {
         height: 200px;
+        width: 350px;
     }
 
     .search {
