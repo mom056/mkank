@@ -112,7 +112,14 @@ export default function Estate() {
                     )}
                 </>
             ) : (
-                <p>Please login to view your estates.</p>
+                <div style={{
+                  height: '50vh',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center'
+                 }}>
+                  <p>Please login to view your estates.</p>
+                </div>
             )}
         </div>
     );
